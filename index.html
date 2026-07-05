@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ars Magna 2.0</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>ARS MAGNA 2.0</h1>
+
+<p class="subtitle">
+El Arte Combinatoria de Ramon Llull
+</p>
+
+</header>
+
+<main>
+
+<section class="wheel-container">
+
+<svg
+id="ars"
+viewBox="-350 -350 700 700"
+width="700"
+height="700">
+
+<g id="outerWheel"></g>
+
+<g id="middleWheel"></g>
+
+<g id="innerWheel"></g>
+
+<circle
+cx="0"
+cy="0"
+r="28"
+class="centerCircle"/>
+
+<text
+x="0"
+y="8"
+text-anchor="middle"
+class="centerText">
+✠
+</text>
+
+</svg>
+
+</section>
+
+<section class="panel">
+
+<div class="buttons">
+
+<button id="leftOuter">
+◀ Exterior
+</button>
+
+<button id="rightOuter">
+Exterior ▶
+</button>
+
+<button id="leftMiddle">
+◀ Media
+</button>
+
+<button id="rightMiddle">
+Media ▶
+</button>
+
+<button id="leftInner">
+◀ Interior
+</button>
+
+<button id="rightInner">
+Interior ▶
+</button>
+
+</div>
+
+<div class="buttons">
+
+<button id="random">
+🎲 Aleatorio
+</button>
+
+<button id="combine">
+⚜ Combinar
+</button>
+
+<button id="reset">
+⟳ Reiniciar
+</button>
+
+</div>
+
+<div id="result">
+
+<h2>Combinación</h2>
+
+<div id="letters">
+—
+</div>
+
+<div id="concepts">
+Esperando...
+</div>
+
+<div id="explanation">
+Selecciona una combinación.
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+Ars Magna 2.0 · Inspirado en Ramon Llull
+
+</footer>
+
+<script src="data.js"></script>
+<script src="wheel.js"></script>
+<script src="engine.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
